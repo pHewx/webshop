@@ -400,16 +400,11 @@ function OrderHomePage(props) {
 
                         <div style={{ display: 'flex', gap: '10px' }}>
                             <span>Phương Thức Thanh Toán</span>
-                            <div onClick={() => setactiveTypePayment(1)} className={activeTypePayment === 1 ? 'box-type-payment active' : 'box-type-payment'}>Thanh toán Online</div>
+                            {/* <div onClick={() => setactiveTypePayment(1)} className={activeTypePayment === 1 ? 'box-type-payment active' : 'box-type-payment'}>Thanh toán Online</div> */}
 
                             <div onClick={() => setactiveTypePayment(0)} className={activeTypePayment === 0 ? 'box-type-payment active' : 'box-type-payment'}>Thanh toán khi nhận hàng</div>
                         </div>
-                        {activeTypePayment != 0 &&
-                            <div className='box-payment'>
-                                {/* <div onClick={() => setactiveTypeOnlPayment(1)} className={activeTypeOnlPayment === 1 ? 'box-type-payment activeOnl' : 'box-type-payment'}>Thanh toán PAYPAL</div> */}
-                                <div onClick={() => setactiveTypeOnlPayment(2)} className={activeTypeOnlPayment === 2 ? 'box-type-payment activeOnl' : 'box-type-payment'}>Thanh toán VNPAY</div>
-                            </div>
-                        }
+                    
 
 
 

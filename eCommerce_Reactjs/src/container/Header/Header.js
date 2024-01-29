@@ -136,7 +136,7 @@ const Header = props => {
                                                 <i className="ti-shopping-cart" />
 
                                             </Link>
-                                            <span className="box-quantity-cart">{dataCart && dataCart.length}</span>
+                                            {dataCart.length > 0 && <span className="box-quantity-cart">{dataCart && dataCart.length}</span>}
                                         </li>
                                         <li className="nav-item">
                                             <Link to={`/user/detail/${user && user.id ? user.id : ''}`} className="icons">

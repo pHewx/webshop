@@ -220,7 +220,7 @@ function ReviewProduct(props) {
                                     <div key={index} className="review_item">
                                         <div className="media">
                                             <div className="d-flex">
-                                                <img className="img-avatar" src={item.user.image} alt="" />
+                                                <img className="img-avatar" src={item.user.image ? item.user.image : "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" } alt="" />
                                             </div>
                                             <div className="media-body">
                                                 <h4>{name}</h4>

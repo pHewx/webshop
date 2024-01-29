@@ -112,10 +112,10 @@ function DetailProductPage(props) {
 
                     </div>
                 </div>
-                {user && dataProductRecommend && dataProductRecommend.length > 0 &&
+                {/* {user && dataProductRecommend && dataProductRecommend.length > 0 &&
                     <ProductFeature title={"Sản phẩm bạn quan tâm"} data={dataProductRecommend}></ProductFeature>
 
-                }
+                } */}
             </section>
 
 

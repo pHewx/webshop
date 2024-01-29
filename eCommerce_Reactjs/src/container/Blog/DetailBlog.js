@@ -126,9 +126,9 @@ function DetailBlog(props) {
                 {dataComment && dataComment.length > 0 &&
                   dataComment.map((item, index) => {
                     if (item.user) {
-                      let name = item.user.firstName + " " + item.user.lastName
+                      let name = item.user.firstName ? item.user.firstName + " " + item.user.lastName : item.user.lastName;
                       return (
-                        <CommentBlog img={item.user.image} name={name} content={item.content} key={index}
+                        <CommentBlog img={item.user.image ? item.user.image : "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"} name={name} content={item.content} key={index}
                           date={moment(item.createdAt).fromNow()}
                         />
                       )

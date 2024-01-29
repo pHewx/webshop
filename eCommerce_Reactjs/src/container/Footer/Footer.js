@@ -45,9 +45,7 @@ function Footer(props) {
 
           </div>
           <div className="footer-bottom row align-items-center" style={{justifyContent: 'center'}}>
-            <p className="footer-text m-0 col-lg-8 col-md-12">{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-              Bản quyền &copy;2024 Đồ án tốt nghiệp của Hoàng Khánh Bằng <i className="fa fa-heart-o" aria-hidden="true" />  <a href="https://colorlib.com" target="_blank"></a>
-              {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
+            
 
           </div>
         </div>
